@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343" >
+    <LinearLayout 
+		android:id="@+id/linearLayout1" 
+        android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:orientation="vertical"
+		android:background="@drawable/titletext"
+		android:layout_gravity="center" >
+		<TextView
+		    android:id="@+id/txtHead"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginTop="@dimen/title_name_margin_top"
+		    android:gravity="center"
+		    android:shadowColor="#000000"
+		    android:shadowDx="0"
+		    android:shadowDy="0"
+		    android:shadowRadius="3"
+		    android:text="LCD Controller"
+		    android:textColor="#FFFFFF"
+		    android:textSize="@dimen/title_name"
+		    android:textStyle="bold" />
+	</LinearLayout>
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+	    <EditText
+	        android:id="@+id/etxt1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/edittext"
+	        android:gravity="center"
+	        android:inputType="textPersonName"
+	        android:maxLength="16"
+	        android:maxLines="1"
+	        android:shadowColor="#000000"
+	        android:shadowDx="0"
+	        android:shadowDy="0"
+	        android:shadowRadius="3"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/edit_text"
+	        android:textStyle="bold" />
+	    <EditText
+	        android:id="@+id/etxt2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/edittext"
+	        android:gravity="center"
+	        android:inputType="textPersonName"
+	        android:maxLength="16"
+	        android:maxLines="1"
+	        android:shadowColor="#000000"
+	        android:shadowDx="0"
+	        android:shadowDy="0"
+	        android:shadowRadius="3"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/edit_text"
+	        android:textStyle="bold" />
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center|top"
+	        android:orientation="horizontal" >
+	        <Button
+	            android:id="@+id/btninit"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/btn_initial"
+	            android:textColor="#FFFFFF" />
+	        <Button
+	            android:id="@+id/btnset"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/btn_set"
+	            android:textColor="#FFFFFF" />
+	        <Button
+	            android:id="@+id/btnclear"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/btn_clear"
+	            android:textColor="#FFFFFF" />
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>
